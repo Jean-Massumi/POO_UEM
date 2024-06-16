@@ -28,6 +28,10 @@ public class ValidacaoNascimento {
         mes = Integer.parseInt(dataNascimento.substring(3, 5));
         ano = Integer.parseInt(dataNascimento.substring(6, 10));
         
+        System.out.println("DIA: "+ dia);
+        System.out.println("MÊS: "+ mes);
+        System.out.println("ANO: "+ ano);
+        
         if ((ano <= 2024)&&((mes > 0)&&(mes <= 12))&&((dia > 0)&&(dia <= 31))){
             System.out.println("DATA VÁLIDA!");
         }
