@@ -42,6 +42,13 @@ public class Poo {
         System.out.println("Placa: "+ meuOutroCarro.getPlaca());
         System.out.println("Portas: "+ meuOutroCarro.getNumPortas());
         
+        Pessoa minhaOutraPessoa = new Pessoa("Paulo", "Preto", 23);
+        
+        System.out.println("-----Pessoa2-----");
+        System.out.println("Nome: "+ minhaOutraPessoa.getPessoa());
+        System.out.println("Cor do Cabelo: "+ minhaOutraPessoa.getCorDoCabelo());
+        System.out.println("Idade: "+ minhaOutraPessoa.getIdade());
+        
     }
     
 }

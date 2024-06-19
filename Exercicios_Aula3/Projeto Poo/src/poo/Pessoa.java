@@ -37,5 +37,14 @@ public class Pessoa {
         this.idade = idade;
     }
     
+    public Pessoa(){    
+    }
+    
+    public Pessoa(String pessoa, String corDoCabelo, int idade){
+        this.pessoa = pessoa;
+        this.corDoCabelo = corDoCabelo;
+        this.idade = idade;
+    }
+    
     
 }
