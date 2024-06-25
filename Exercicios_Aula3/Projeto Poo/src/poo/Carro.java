@@ -56,5 +56,34 @@ public class Carro {
         this.placa = placa;
         this.numPortas = numPortas;
     }
+    
+    public void ligar(){
+        System.out.println("CARRO LIGADO");
+    }
             
+    public void desligar(){
+        System.out.println("CARRO DESLIGADO");
+    }
+    
+    public void acelerar(){
+        System.out.println("CARRO ACELERANDO");
+    }
+    
+    public void frear(){
+        System.out.println("CARRO FREANDO");
+    }
+    
+    
+    private int cambio;
+    
+    public void setCambio(int cambio){
+        this.cambio = cambio;
+    }
+    
+    public int getCambio(){
+        System.out.println("MARCHA " + cambio);
+        return cambio;
+    }
+    
+    
 }

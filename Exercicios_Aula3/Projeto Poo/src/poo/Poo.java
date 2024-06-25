@@ -49,6 +49,45 @@ public class Poo {
         System.out.println("Cor do Cabelo: "+ minhaOutraPessoa.getCorDoCabelo());
         System.out.println("Idade: "+ minhaOutraPessoa.getIdade());
         
+        System.out.println("");
+        Pessoa pessoa = new Pessoa();
+        pessoa.setCarro(meuCarro);
+        
+        pessoa.ligarCarro();
+        pessoa.setCambioMarcha(1);
+        pessoa.getCarro().getCambio();
+        pessoa.acelerarCarro();
+        
+        System.out.println();
+        
+        pessoa.setCambioMarcha(2);
+        pessoa.getCarro().getCambio();
+        pessoa.acelerarCarro();
+        
+        System.out.println();
+        
+        pessoa.setCambioMarcha(3);
+        pessoa.getCarro().getCambio();
+        pessoa.acelerarCarro();
+        
+        System.out.println();
+        
+        pessoa.setCambioMarcha(2);
+        pessoa.getCarro().getCambio();
+        pessoa.acelerarCarro();
+        
+        System.out.println();
+        
+        pessoa.setCambioMarcha(1);
+        pessoa.getCarro().getCambio();
+        pessoa.acelerarCarro();
+        
+        System.out.println();
+        
+        pessoa.setCambioMarcha(0);
+        pessoa.getCarro().getCambio();
+        pessoa.frearCarro();
+        pessoa.desligarCarro();
     }
     
 }
