@@ -10,9 +10,4 @@ package figura;
  */
 public class TrianguloEquilatero extends Triangulo{
     
-    @Override
-    public void desenha(){
-        System.out.println("Triangulo equilatero criado");
-    }
-    
 }
